@@ -1,20 +1,30 @@
-# Nginx Log Analyser <a href="https://roadmap.sh/projects/nginx-log-analyser" rel"noopener noreferrer nofollow" target="_blank">Nginx Log Analyser</a>
-This project is a simple command-line tool to analyze Nginx access logs. Designed for practising **Shell** scripting skills.
+# [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)
+
+This project is a simple command-line tool to analyze Nginx access logs.  
+Designed for practising **Shell** scripting skills.
+
+---
 
 ## Requirement
 
-Insert the `.txt` file inside your folder: 
-```
+Insert the `.txt` file inside your folder:
+
+```bash
 wget -O nginx-access.txt https://gist.githubusercontent.com/kamranahmedse/e66c3b9ea89a1a030d3b739eeeef22d0/raw/77fb3ac837a73c4f0206e78a236d885590b7ae35/nginx-access.log
 ```
 
 # Usage
+
 1. Clone or download the script `nginx-analyzer.sh`
+
 2. Make it executable:
+
 	```bash
 	chmod +x nginx-analyzer.sh 
 	```
+
 3. Run the script
+
 	```bash
 	./nginx-analyzer.sh
 	```
