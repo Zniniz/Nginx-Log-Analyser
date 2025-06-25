@@ -62,3 +62,15 @@ Mozilla/5.0 - 332 requests
 Custom-AsyncHttpClient - 294 requests
 Mozilla/5.0 - 282 requests
 ```
+
+`echo -e` enables interpretation of backslash‐escapes (e.g. \n for newline, \t for tab) so you can inject formatting into your output 
+
+The `-F` option sets the input field separator for `awk`. By default `awk` splits each line on whitespace; with `-F"` you’re splitting on the double-quote character.
+
+By itself, `sort` arranges lines in lexicographical (alphabetical) order. In pipelines it groups like items together so that `uniq` can count them.
+
+`uniq` collapses adjacent identical lines into one and, with `-c`, prefixes each line with its count of repetitions.
+
+The `-n` flag tells `sort` to compare lines numerically (rather than lexically), and `-r` reverses the result (descending)
+
+`head` prints only the first N lines `(-n N)` of its input. After sorting in descending order, `head -n 5` gives you the top five entries.
